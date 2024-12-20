@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.navbar {
+  background-color: #e63535;
+  color: white;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 20px 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card {
+  margin-top: 20px;
+  border: 5px  #706060 solid;
+  border-radius: 30px;
+
+}
+
+
+
+.list-container {
+  margin-top: 20px;
+}
+
+/* button:hover {
+  background-color: rgb(65, 114, 156);
+} */
+
+
+.btn{
+  background-color: black;
+  color: white;
+  font-weight:bolder;
+}
+/* Dark Mode Styling */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar {
+  background-color: #333;
+}
+
+body.dark-mode .list-group-item {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #444;
+}
+
+body.dark-mode .card {
+  background-color: #333;
+  color: #ffffff;
+}
+
+/* body.dark-mode .btn {
+  background-color: #4b1919;
+  color: #ffffff; */
+
+
+body.dark-mode #mode-toggle {
+  background-color: #444;
+  color: #ffffff;
+}
+
+.poster {
+  height: 50px;
+  width: 50px;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: auto;
+  
+}
+
+.img-thumbnail {
+  height: 500px;
+  width: 400px;
+}
+
+.list-group-item{
+  /* position: fixed; */
+}
+
+.list-group-item:hover {
+  color: black;
+  cursor: pointer;
+  background-color: #bd8e8e;
+}
+
+.list-group-item.dark-mode :hover {
+  color: black;
+  cursor: pointer;
+  background-color: #c2bcbc;
+}
+
+.h5 {
+  font-weight: bold;
+}
+
+.reviews{
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.ability{
+  font-weight: bold;
+  font-size: larger;
+  border: 5px rgb(95, 69, 69) solid;
+  margin: 20px 0 20px 0;
+  
+  padding: 5%;
+  
+}
+
+.reviews{
+  /* color: red; */
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  
+}
+
+
+
+.output {
+  margin-top: 20px;
+}
+
+.review-item {
+  background-color: rgb(148, 126, 126);
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.review-item h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.review-item p {
+  font-size: 1.5rem;
+  color: black;
+}
+
